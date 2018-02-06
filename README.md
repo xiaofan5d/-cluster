@@ -13,5 +13,5 @@
 * R = Recency 最近一次消费　　
 * F = Frequency 消费频率　　
 * M = Monetary 消费金额
-* ![image]()
+* ![image](https://github.com/xiaofan5d/-cluster/blob/master/RFM%E5%AE%9A%E4%B9%89%E5%9B%BE.jpg)
 
