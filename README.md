@@ -8,7 +8,7 @@
 2. 对不同的客户类别进行特征分析，比较不同类客户的客户价值
 3. 对不同价值的客户类别提供个性化服务，制定相应的营销策略。
 # 二.数据分析工具
-##. python3.6,jupyter notebook
+## jupyter notebook python3.6
 * 数据预处理:pandas,numpy
 * 数据建模:scikit-learn 
 * 可视化:matolotlib
