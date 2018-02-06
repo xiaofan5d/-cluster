@@ -15,12 +15,19 @@
 * M = Monetary 消费金额
 * ![image](https://github.com/xiaofan5d/-cluster/blob/master/RFM%E5%AE%9A%E4%B9%89%E5%9B%BE.jpg)
 ## 从实际业务出发
-1.根据本公司业务角度出发加入 
-* L=LOAD_TIME-FFP_DATE 会员加入时长
-* C=AVG_DISCOUNT 会员平均折扣
+1.根据本公司业务角度出发加入新指标,构建LRFMC模型数据
+* L=Load_time-ffp_date 会员加入时长
+* C=avg_discount 会员平均折扣
 # 三.数据分析工具
 1. python3.6,jupyter notebook
-* numpy
-* pandas
+* 数据预处理:pandas,numpy
 * 数据建模:scikit-learn 
 * 可视化:matolotlib
+# 四.具体分析代码
+正在写。。。
+# 五.模型应用
+1. 会员等级:建立良好的会员等级,可将会员分成钻石，白金，金卡，银卡等,针对不同会员的等级和积分兑换不同的礼品
+2. 会员粘性:增加会员的粘性度,可以利用邮件或者短信营销实时更新最近活动等来刺激会员进行消费
+3. 会员维护：一方面维持老会员的消费情况,一方面增加新会员的发展,建立良好的会员营销制度
+# 六.总结
+结合实际业务,运用机器学习中K-Means聚类算法,建立LRFMC模型。计算出不同类型的会员进行精准营销
