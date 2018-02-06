@@ -1,4 +1,4 @@
-* jupyter notebook具体代码分析:
+* jupyter notebook具体代码分析:[会员聚类分析.ipynb](https://github.com/xiaofan5d/-cluster/blob/master/%E4%BC%9A%E5%91%98%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90.ipynb)
 
 
 # 一.基于RFM模型的公司用户聚类分析
