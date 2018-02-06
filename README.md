@@ -7,18 +7,7 @@
 1. 借助本公司客户数据，对客户进行分类。
 2. 对不同的客户类别进行特征分析，比较不同类客户的客户价值
 3. 对不同价值的客户类别提供个性化服务，制定相应的营销策略。
-# 二.概念引用
-##  什么是RMF模型?
-1. RFM模型是一个被广泛使用的客户关系分析模型，主要以用户行为来区分客户，RFM分别是：
-* R = Recency 最近一次消费　　
-* F = Frequency 消费频率　　
-* M = Monetary 消费金额
-* ![image](https://github.com/xiaofan5d/-cluster/blob/master/RFM%E5%AE%9A%E4%B9%89%E5%9B%BE.jpg)
-## 从实际业务出发
-1.根据本公司业务角度出发加入新指标,构建LRFMC模型数据
-* L=Load_time-ffp_date 会员加入时长
-* C=avg_discount 会员平均折扣
-# 三.数据分析工具
+# 二.数据分析工具
 1. python3.6,jupyter notebook
 * 数据预处理:pandas,numpy
 * 数据建模:scikit-learn 
@@ -32,6 +21,17 @@
 * 模型应用
 ## jupyter notebook代码
 具体分析代码详见(未写完)
+# 三.概念引用
+##  什么是RMF模型?
+1. RFM模型是一个被广泛使用的客户关系分析模型，主要以用户行为来区分客户，RFM分别是：
+* R = Recency 最近一次消费　　
+* F = Frequency 消费频率　　
+* M = Monetary 消费金额
+* ![image](https://github.com/xiaofan5d/-cluster/blob/master/RFM%E5%AE%9A%E4%B9%89%E5%9B%BE.jpg)
+## 从实际业务出发
+1.根据本公司业务角度出发加入新指标,构建LRFMC模型数据
+* L=Load_time-ffp_date 会员加入时长
+* C=avg_discount 会员平均折扣
 # 五.模型应用
 1. 会员等级:建立良好的会员等级,可将会员分成钻石，白金，金卡，银卡等,针对不同会员的等级和积分兑换不同的礼品
 2. 会员粘性:增加会员的粘性度,可以利用邮件或者短信营销实时更新最近活动等来刺激会员进行消费
