@@ -14,4 +14,13 @@
 * F = Frequency 消费频率　　
 * M = Monetary 消费金额
 * ![image](https://github.com/xiaofan5d/-cluster/blob/master/RFM%E5%AE%9A%E4%B9%89%E5%9B%BE.jpg)
-
+## 从实际业务出发
+1.根据本公司业务角度出发加入 
+* L=LOAD_TIME-FFP_DATE 会员加入时长
+* C=AVG_DISCOUNT 会员平均折扣
+# 三.数据分析工具
+1. python3.6,jupyter notebook
+* numpy
+* pandas
+* 数据建模:scikit-learn 
+* 可视化:matolotlib
